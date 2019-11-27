@@ -1,0 +1,359 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "mmalafaia@gmail.com",
+      "name": "Manoel Malafaia",
+      "points_total": 0,
+      "teacher_id": 2,
+      "school_id": 1,
+      "file_id": 1,
+      "address": "Rua das Flores 72",
+      "city": "São Paulo",
+      "state": "SP",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    },
+    {
+      "id": 2,
+      "email": "pedrodaher1997@gmail.com",
+      "name": "Pedro Entriger",
+      "points_total": 0,
+      "teacher_id": 1,
+      "school_id": 1,
+      "file_id": 1,
+      "address": "Rua das Flores 72",
+      "city": "São Paulo",
+      "state": "SP",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    },
+    {
+      "id": 3,
+      "email": "philipe.tec@gmail.com",
+      "name": "Philipe Siqueira",
+      "points_total": 0,
+      "teacher_id": 5,
+      "school_id": 2,
+      "file_id": 1,
+      "address": "Rua Igarapé, 30",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    },
+    {
+      "id": 4,
+      "email": "didierpg@gmail.com",
+      "name": "Didier Ferreira",
+      "points_total": 0,
+      "teacher_id": 5,
+      "school_id": 2,
+      "file_id": 1,
+      "address": "Rua Pasto, 93",
+      "city": "João Pessoar",
+      "state": "PA",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    },
+    {
+      "id": 5,
+      "email": "diego@rocketseat.com.br",
+      "name": "Diego Fernandes",
+      "points_total": 0,
+      "school_id": 2,
+      "file_id": 1,
+      "address": "Rua Principal",
+      "city": "Rio do Sul",
+      "state": "SC",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    },
+    {
+      "id": 6,
+      "email": "mmalafaia2@gmail.com",
+      "name": "Manoel Malafaia 2",
+      "points_total": 0,
+      "teacher_id": 2,
+      "school_id": 1,
+      "file_id": 1,
+      "address": "Rua das Flores 72",
+      "city": "São Paulo",
+      "state": "SP",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    }
+  ],
+  "teachers": [
+    {
+      "user_id": 2,
+      "subjects": "Gambiarra",
+      "points_total": 0,
+      "school_id": 1,
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    },
+    {
+      "user_id": 5,
+      "subjects": "ReactJS, React Native, Node.JS",
+      "points_total": 0,
+      "school_id": 1,
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    }
+  ],
+  "schools": [
+    {
+      "id": 1,
+      "name": "Faesa",
+      "points_total": 0,
+      "address": "Av Vitória",
+      "city": "Vitoria",
+      "estate": "ES",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    },
+    {
+      "id": 2,
+      "name": "Rocketseat",
+      "points_total": 0,
+      "address": "Rua principal",
+      "city": "Rio do Sul",
+      "estate": "SC",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    }
+  ],
+  "files": [
+    {
+      "id": 1,
+      "type": 1,
+      "name": "avatar.jpg",
+      "path": "http://localhost:3333/avatar.jpg",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    },
+    {
+      "id": 2,
+      "type": 1,
+      "name": "avatar2.jpg",
+      "path": "http://localhost:3333/avatar2.jpg",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    },
+    {
+      "id": 3,
+      "type": 1,
+      "name": "video.jpg",
+      "path": "http://localhost:3333/video.jpg",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    },
+    {
+      "id": 4,
+      "type": 1,
+      "name": "print1.jpg",
+      "path": "http://localhost:3333/print1.jpg",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    },
+    {
+      "id": 5,
+      "type": 1,
+      "name": "print2.jpg",
+      "path": "http://localhost:3333/print2.jpg",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    },
+    {
+      "id": 6,
+      "type": 1,
+      "name": "print3.jpg",
+      "path": "http://localhost:3333/print3.jpg",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "ReactJS",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    },
+    {
+      "id": 2,
+      "name": "React Native",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    },
+    {
+      "id": 3,
+      "name": "Node.JS",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    },
+    {
+      "id": 4,
+      "name": "Java",
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00"
+    }
+  ],
+  "timeline": [
+    {
+      "id": 1,
+      "desc": "Como usa o Flex no CSS?",
+      "points_total": 0,
+      "users_id": 2,
+      "files_id": null,
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00",
+      "tags": [
+        "ReactJS",
+        "React Native"
+      ],
+      "likes_amount": 3,
+      "dislikes_amount": 0,
+      "comments_amount": 2
+    },
+    {
+      "id": 2,
+      "desc": "Olha que legal esse App que fiz do curso de Rocketseat",
+      "points_total": 0,
+      "users_id": 1,
+      "files_id": 3,
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00",
+      "tags": [
+        "ReactJS",
+        "React Native",
+        "Node.JS"
+      ],
+      "likes_amount": 0,
+      "dislikes_amount": 0,
+      "comments_amount": 0
+    },
+    {
+      "id": 3,
+      "desc": "Esse negócio de desenvolvimento é legal mesmo? não é só ondinha?",
+      "points_total": 0,
+      "users_id": 4,
+      "files_id": 4,
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00",
+      "tags": [
+        "ReactJS",
+        "React Native",
+        "Node.JS",
+        "Java"
+      ]
+    },
+    {
+      "id": 4,
+      "desc": "Post de teste para fazer volume",
+      "points_total": 0,
+      "users_id": 3,
+      "files_id": 5,
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00",
+      "tags": [
+        "ReactJS",
+        "React Native"
+      ]
+    },
+    {
+      "id": 5,
+      "desc": "Post de teste para fazer volume",
+      "points_total": 0,
+      "users_id": 3,
+      "files_id": 5,
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00",
+      "tags": [
+        "ReactJS",
+        "React Native"
+      ]
+    },
+    {
+      "id": 6,
+      "desc": "Post de teste para fazer volume",
+      "points_total": 0,
+      "users_id": 3,
+      "files_id": 5,
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00",
+      "tags": [
+        "ReactJS",
+        "React Native"
+      ]
+    },
+    {
+      "id": 7,
+      "desc": "Post de teste para fazer volume",
+      "points_total": 0,
+      "users_id": 3,
+      "files_id": 5,
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00",
+      "tags": [
+        "ReactJS",
+        "React Native"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "desc": "Como usa o Flex no CSS?",
+      "points_total": 3,
+      "users_id": 2,
+      "files_id": null,
+      "created_at": "2019-11-26T09:00:00",
+      "updated_at": "2019-11-26T09:00:00",
+      "tags": [
+        "ReactJS",
+        "React Native"
+      ],
+      "likes_amount": 3,
+      "likes_users": [
+        "Manoel Malafaia",
+        "Diego Ferreira",
+        "Pedro Daher"
+      ],
+      "dislikes_amount": 0,
+      "dislikes_users": [],
+      "coments": [
+        {
+          "id": 1,
+          "points_total": 0,
+          "comment": "Tem muitas maneiras, já assistou o módulo bônus da Rockesetat?",
+          "users_id": 3,
+          "likes": 3,
+          "likes_users": [
+            "Manoel Malafaia",
+            "Didier Ferreira",
+            "Diego Ferreira"
+          ],
+          "dislikes": 1,
+          "dislikes_users": [
+            "Philipe Siqueira"
+          ]
+        },
+        {
+          "id": 2,
+          "points_total": 0,
+          "comment": "Já olhou no Stack?",
+          "users_id": 4,
+          "likes": 1,
+          "likes_users": [
+            "Didier Ferreira"
+          ],
+          "dislikes": 0,
+          "dislikes_users": []
+        }
+      ],
+      "comments_amount": 2
+    }
+  ]
+}

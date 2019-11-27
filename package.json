@@ -1,0 +1,10 @@
+{
+  "name": "rsxp-xthacked",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "json-server": "^0.15.1"
+  }
+}
